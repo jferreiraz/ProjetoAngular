@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { FirstComponentComponent } from './first-component.component';
+import { UserJferreirazComponent } from './user-jferreiraz.component';
 
-describe('FirstComponentComponent', () => {
-  let component: FirstComponentComponent;
-  let fixture: ComponentFixture<FirstComponentComponent>;
+describe('UserJferreirazComponent', () => {
+  let component: UserJferreirazComponent;
+  let fixture: ComponentFixture<UserJferreirazComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ FirstComponentComponent ]
+      declarations: [ UserJferreirazComponent ]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(FirstComponentComponent);
+    fixture = TestBed.createComponent(UserJferreirazComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

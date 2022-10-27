@@ -2,15 +2,15 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
-import { FirstComponentComponent } from './components/first-component/first-component.component';
+import { UserJferreirazComponent } from './components/user-jferreiraz/user-jferreiraz.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    FirstComponentComponent
+    UserJferreirazComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
